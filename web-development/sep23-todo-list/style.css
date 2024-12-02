@@ -17,3 +17,15 @@
         background-color: rgb(185, 117, 16);
     }
 }
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

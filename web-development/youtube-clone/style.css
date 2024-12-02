@@ -1,0 +1,65 @@
+h1 {
+    color: red;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 16px; */
+    /* border: 1px solid red; */
+    padding: 16px;
+
+    .left {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+
+        span:first-child {
+            padding: 8px;
+        }
+
+        span:first-child:hover {
+            width: 24;
+            height: 24;
+            background-color: gainsboro;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        span:nth-child(2) {
+            width: 100px;
+            height: 100px;
+        }
+
+        /* #burger {
+            background-color: gray;
+        } */
+
+    }
+
+    .mid input {
+        padding: 16px;
+        border-radius: 32px;
+        outline: none;
+        border: 1px solid pink;
+    }
+
+    .mid input:focus {
+        border: 1px solid navy;
+    }
+
+    .right {
+        /* align-self: flex-end; */
+        /* position: absolute; */
+        top: 16px;
+        left: 150px;
+    }
+}

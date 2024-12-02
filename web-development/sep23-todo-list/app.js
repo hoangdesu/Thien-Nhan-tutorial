@@ -1,5 +1,5 @@
 const form = document.querySelector('form');
-const todosContainer = document.querySelector('#todos-container')
+const todosContainer = document.querySelector('#todos-container');
 
 // array to keep track of all the TODOs
 // let todoList = ['do hw', 'learn html', 'finish javascript'];
@@ -80,5 +80,5 @@ form.addEventListener('submit', (e) => {
     // reset the list before rendering a new one
     todosContainer.innerHTML = '';
     
-    renderTodoList(todoList);
+    renderTodoList();
 });
